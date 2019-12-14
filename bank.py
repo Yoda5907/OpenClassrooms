@@ -1,5 +1,7 @@
 class Account:
-    """ une classe de gestion naïve d'un compte bancaire"""
+    """ une classe de gestion d'un compte bancaire
+    Cette classe permet de créer un compte bancaire
+    et d'eefectuer des opérations de dépôtrs et retrait"""
     _id = 0
     _balance = 100.0
     _currency = "€"
